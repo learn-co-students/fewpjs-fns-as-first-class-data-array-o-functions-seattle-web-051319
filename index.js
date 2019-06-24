@@ -43,7 +43,6 @@ function exerciseDog(dogName, dogBreed) {
     let arr = [];
     for (let i = 0; i < routine.length; i++) {
         let val = routine[i](dogName, dogBreed)
-        val;
         arr.push(val);
     }
     return arr;
